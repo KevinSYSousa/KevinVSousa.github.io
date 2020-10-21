@@ -2,22 +2,18 @@
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
 
   <title>Port</title>
-
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
   <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-
   <!-- Custom styles for this template -->
   <link href="css/resume.css" rel="stylesheet">
 
@@ -52,13 +48,23 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
         </li>
-        <!--<li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-        </li>-->
       </ul>
     </div>
   </nav>
-
+  <div class="darkMode">
+    <span class="textDM">Apague a luz</span>
+    <input id="switch-shadow" class="switch switch--shadow" type="checkbox" />
+    <label for="switch-shadow"></label>
+  </div>
+  <hr class="m-0">
+  <div class="frags">
+    <h2 class="mb-5 nation-title">Nacionalidade</h2>
+    <button class="button-nation"><a class="nation"><img src="img/brazil.png"></a></button>
+    <button class="button-nation"><a class="nation"><img src="img/united-states-of-america.png"></a></button>
+    <button class="button-nation"><a class="nation"><img src="img/spain.png"></a></button>
+    <button class="button-nation"><a class="nation"><img src="img/france.png"></a></button>
+  </div>
+  <hr class="m-0">
   <div class="container-fluid p-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
@@ -71,18 +77,15 @@
         </div>
         <p class="lead mb-5">Sou estudante de Engenharia da Computação, super interessado em desenvolver aplicações e que sempre busca novos conhecimentos.</p>
         <div class="social-icons">
-          <a href="https://www.linkedin.com/in/kevin-sousa-979522169/">
+          <a href="https://www.linkedin.com/in/kevin-sousa-979522169/" target="_blank">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a href="https://github.com/KevinSYSousa">
+          <a href="https://github.com/KevinSYSousa" target="_blank">
             <i class="fab fa-github"></i>
           </a>
-          <!--<a href="#">
-            <i class="fab fa-twitter"></i>
+          <a href="" target="_blank">
+            <i class="fab fa-google"></i>
           </a>
-          <a href="#">
-            <i class="fab fa-facebook-f"></i>
-          </a>-->
         </div>
       </div>
     </section>
@@ -260,6 +263,7 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
+  <script src="js/DMode.js"></script>
 
 </body>
 
