@@ -5,7 +5,7 @@
 ## Preview
 
 <div align="center" id="top"> 
-  <img src="./.github/page-preview.png" alt="Project preview" />
+  <img src="./page-preview.png" alt="Project preview" />
 
 &#xa0;
 
